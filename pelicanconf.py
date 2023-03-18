@@ -1,7 +1,7 @@
 import alchemy
 
 AUTHOR = 'Mark Snidal'
-SITENAME = "Mark's Yellhorn"
+SITENAME = "Mark's Project Blog"
 SITEURL = ''
 
 PATH = 'content'

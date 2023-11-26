@@ -1,8 +1,8 @@
 import alchemy
 
 AUTHOR = 'Mark Snidal'
-SITENAME = "Mark's Project Blog"
-SITEURL = ''
+SITENAME = "msnidal"
+SITEURL = 'https://msnidal.com'
 
 PATH = 'content'
 
@@ -18,12 +18,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (("GitHub", "https://github.com/msnidal"),("LinkedIn", "https://www.linkedin.com/in/msnidal/"))
+LINKS = (("GitHub", "https://github.com/msnidal"),("Twitter", "https://twitter.com/marksnidal"))
 SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
-THEME = alchemy.path()
+THEME = 'themes/pelican-alchemy/alchemy'
 
 STATIC_PATHS = ["static"]
 EXTRA_PATH_METADATA = {
